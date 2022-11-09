@@ -1,0 +1,214 @@
+pcall(function()
+repeat wait() until game:IsLoaded() -- because the ui has bugs 
+end)
+local IntroSPA = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local stupidproarsenal = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local welcoming = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local days = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local TextButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local forumless = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local UIGradient_2 = Instance.new("UIGradient")
+local holder = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local UICorner_6 = Instance.new("UICorner")
+local main_2 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local UICorner_8 = Instance.new("UICorner")
+
+--Properties:
+
+IntroSPA.Name = "Erick"
+IntroSPA.Parent = game.CoreGui
+IntroSPA.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+pcall(function()
+if syn then
+syn.protect_gui(Erick)
+end
+end)
+
+main.Name = "main"
+main.Parent = Erick
+main.AnchorPoint = Vector2.new(0.5, 0.5)
+main.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+main.BorderSizePixel = 0
+main.Position = UDim2.new(0.49898988, 0, 0.5, 0)
+main.Size = UDim2.new(0, 305, 0, 332)
+
+stupidproarsenal.Name = "Erick"
+stupidproarsenal.Parent = main
+stupidproarsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+stupidproarsenal.BackgroundTransparency = 1.000
+stupidproarsenal.BorderSizePixel = 0
+stupidproarsenal.Position = UDim2.new(0.334426224, 0, 0.048192773, 0)
+stupidproarsenal.Size = UDim2.new(0.327868849, 0, 0.30120483, 0)
+stupidproarsenal.Image = "rbxassetid://11245671285"
+stupidproarsenal.ScaleType = Enum.ScaleType.Fit
+stupidproarsenal.SliceScale = 0.000
+
+UICorner.CornerRadius = UDim.new(999, 0)
+UICorner.Parent = stupidproarsenal
+
+welcoming.Name = "welcoming"
+welcoming.Parent = main
+welcoming.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+welcoming.BackgroundTransparency = 1.000
+welcoming.BorderColor3 = Color3.fromRGB(27, 42, 53)
+welcoming.BorderSizePixel = 0
+welcoming.Position = UDim2.new(0.0983606577, 0, 0.545180678, 0)
+welcoming.Size = UDim2.new(0.796721339, 0, 0.0632530153, 0)
+welcoming.Font = Enum.Font.Gotham
+welcoming.Text = "Welcome, user"
+welcoming.TextColor3 = Color3.fromRGB(255, 255, 255)
+welcoming.TextScaled = true
+welcoming.TextSize = 14.000
+welcoming.TextWrapped = true
+welcoming.RichText = true
+
+UICorner_2.CornerRadius = UDim.new(0.949999988, 0)
+UICorner_2.Parent = welcoming
+
+UIAspectRatioConstraint.Parent = welcoming
+UIAspectRatioConstraint.AspectRatio = 11.571
+
+days.Name = "days"
+days.Parent = main
+days.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+days.BackgroundTransparency = 1.000
+days.BorderColor3 = Color3.fromRGB(27, 42, 53)
+days.BorderSizePixel = 0
+days.Position = UDim2.new(0.101639345, 0, 0.608433723, 0)
+days.Size = UDim2.new(0.793442607, 0, 0.0662650615, 0)
+days.Font = Enum.Font.Gotham
+days.Text = "You are currently <b>0</b> days old"
+days.TextColor3 = Color3.fromRGB(255, 255, 255)
+days.TextSize = 14.000
+days.TextWrapped = true
+days.RichText = true
+
+UICorner_3.CornerRadius = UDim.new(0.949999988, 0)
+UICorner_3.Parent = days
+
+UIAspectRatioConstraint_2.Parent = days
+UIAspectRatioConstraint_2.AspectRatio = 11.000
+
+TextButton.Parent = main
+TextButton.AnchorPoint = Vector2.new(0.5, 0)
+TextButton.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.495081961, 0, 0.843373477, 0)
+TextButton.Size = UDim2.new(0.665573776, 0, 0.0993975922, 0)
+TextButton.AutoButtonColor = false
+TextButton.Font = Enum.Font.GothamMedium
+TextButton.Text = "Load"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 18.000
+TextButton.TextWrapped = true
+
+UICorner_4.Parent = TextButton
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(254, 254, 254)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(167, 167, 167)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient.Rotation = 90
+UIGradient.Parent = TextButton
+
+UIAspectRatioConstraint_3.Parent = TextButton
+UIAspectRatioConstraint_3.AspectRatio = 6.152
+
+forumless.Name = "forumless"
+forumless.Parent = main
+forumless.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+forumless.BackgroundTransparency = 1.000
+forumless.BorderColor3 = Color3.fromRGB(27, 42, 53)
+forumless.BorderSizePixel = 0
+forumless.Position = UDim2.new(0.0721311495, 0, 0.716867447, 0)
+forumless.Size = UDim2.new(0.872131169, 0, 0.0873493999, 0)
+forumless.Font = Enum.Font.SourceSans
+forumless.Text = "Forum-less? Visit <b>forum.robloxscripts.com</b>!"
+forumless.TextColor3 = Color3.fromRGB(86, 255, 83)
+forumless.TextScaled = true
+forumless.TextSize = 14.000
+forumless.TextWrapped = true
+forumless.RichText = true
+
+UICorner_5.CornerRadius = UDim.new(0.949999988, 0)
+UICorner_5.Parent = forumless
+
+UIAspectRatioConstraint_4.Parent = forumless
+UIAspectRatioConstraint_4.AspectRatio = 9.172
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.27, Color3.fromRGB(180, 152, 255)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(98, 38, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(18, 117, 255))}
+UIGradient_2.Rotation = -90
+UIGradient_2.Parent = main
+
+holder.Name = "holder"
+holder.Parent = main
+holder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+holder.BorderColor3 = Color3.fromRGB(27, 42, 53)
+holder.BorderSizePixel = 0
+holder.Position = UDim2.new(0.18360655, 0, 0.391566247, 0)
+holder.Size = UDim2.new(0.652459025, 0, 0.0903614461, 0)
+holder.Font = Enum.Font.GothamBlack
+holder.Text = ""
+holder.TextColor3 = Color3.fromRGB(0, 0, 0)
+holder.TextSize = 14.000
+holder.TextWrapped = true
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19, 116, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(95, 23, 255))}
+UIGradient_3.Parent = holder
+
+UICorner_6.CornerRadius = UDim.new(0.949999988, 0)
+UICorner_6.Parent = holder
+
+main_2.Name = "main"
+main_2.Parent = main
+main_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main_2.BackgroundTransparency = 1.000
+main_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+main_2.BorderSizePixel = 0
+main_2.Position = UDim2.new(0.18360655, 0, 0.391566247, 0)
+main_2.Size = UDim2.new(0.652459025, 0, 0.0903614461, 0)
+main_2.Font = Enum.Font.GothamBlack
+main_2.Text = "StupidProArsenal Scripts"
+main_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+main_2.TextSize = 14.000
+main_2.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0.949999988, 0)
+UICorner_7.Parent = main_2
+
+UIAspectRatioConstraint_5.Parent = main_2
+UIAspectRatioConstraint_5.AspectRatio = 6.633
+
+UICorner_8.CornerRadius = UDim.new(0.169, 0)
+UICorner_8.Parent = main
+
+
+
+		welcoming.Text = "Welcome, <b>"..game.Players.LocalPlayer.Name.."</b>!"
+
+
+
+		days.Text = "You are currently <b>"..game.Players.LocalPlayer.AccountAge.."</b> days old"
+
+	
+	TextButton.MouseButton1Click:Connect(function()
+    
+    		spawn(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/StupidProAArsenal/main/main/stupid%20guy%20in%20the%20west',true))()
+		end)
+		main:Destroy()
+		
+		
+	end)
